@@ -19,3 +19,7 @@ To compile and run the cli:
 All actions reside under ```backend/src/main/java/com/dopplertask/dopplertask/domain/action```
 
 We prefer the usage of kotlin for developing tasks as it contributes to much less boilerplate code.
+
+## CLI development
+
+The CLI lives in `cli/` and is published as `dopplertask-cli`. It needs Node 18 or newer.
