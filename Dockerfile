@@ -1,4 +1,5 @@
 FROM openjdk:17-alpine AS jlink-package
+LABEL org.opencontainers.image.source="https://github.com/profgmanliams/dopplertask"
 # First: generate java runtime module by jlink.
 
 RUN jlink \
