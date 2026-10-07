@@ -1,2 +1,2 @@
 #!/bin/sh -x
-java -jar /opt/spring-boot/*.jar
+exec java -jar /opt/spring-boot/*.jar

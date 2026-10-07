@@ -1,4 +1,5 @@
 #!/bin/sh -x
+set -e
 
 apk add --no-cache go git libc-dev
 
