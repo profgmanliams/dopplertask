@@ -23,6 +23,6 @@ jobs:
           run: docker build . --file Dockerfile --tag dopplertask/dopplertask:latest
         - name: Push the latest Docker image
           run: docker push dopplertask/dopplertask:latest
-          
-          
-     
+
+permissions:
+  contents: read
