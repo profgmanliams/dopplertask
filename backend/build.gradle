@@ -79,7 +79,7 @@ dependencies {
     implementation "com.jcraft:jsch:0.1.55"
 
 // https://mvnrepository.com/artifact/com.h2database/h2
-    runtimeOnly group: 'com.h2database', name: 'h2', version: '1.4.199'
+    runtimeOnly group: 'com.h2database', name: 'h2', version: '2.5.252'
 
     // https://mvnrepository.com/artifact/org.mockito/mockito-core
     testImplementation 'org.mockito:mockito-core:4.2.0'
