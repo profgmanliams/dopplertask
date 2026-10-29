@@ -106,7 +106,7 @@ dependencies {
     implementation "org.reflections:reflections:0.10.1"
 
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
-    runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.6.10'
+    runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '2.4.21'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.1')
     testImplementation('com.jayway.jsonpath:json-path:2.6.0')
