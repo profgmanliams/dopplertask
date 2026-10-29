@@ -86,7 +86,7 @@ dependencies {
 
 
     // https://mvnrepository.com/artifact/org.jbehave/jbehave-core
-    implementation "org.jbehave:jbehave-core:4.6.1"
+    implementation "org.jbehave:jbehave-core:5.2.0"
 // https://mvnrepository.com/artifact/org.jbehave.web/jbehave-web-selenium
     // https://mvnrepository.com/artifact/org.jbehave.web/jbehave-web-selenium
     implementation "org.jbehave.web:jbehave-web-selenium:4.0-beta-1"
