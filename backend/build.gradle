@@ -55,8 +55,8 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq
     implementation "org.springframework.boot:spring-boot-starter-activemq:2.6.1"
 
-    implementation("org.apache.activemq:activemq-stomp:5.15.12")
-    implementation("org.apache.activemq:activemq-http:5.15.12")
+    implementation("org.apache.activemq:activemq-stomp:6.3.3")
+    implementation("org.apache.activemq:activemq-http:6.3.3")
 
     // https://mvnrepository.com/artifact/org.apache.velocity.tools/velocity-tools-generic
     implementation "org.apache.velocity.tools:velocity-tools-generic:3.0"
@@ -64,9 +64,9 @@ dependencies {
     implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.10.3"
 
     // https://mvnrepository.com/artifact/org.apache.activemq/activemq-broker
-    implementation "org.apache.activemq:activemq-broker:5.15.12"
+    implementation "org.apache.activemq:activemq-broker:6.3.3"
     // https://mvnrepository.com/artifact/org.apache.activemq/activemq-kahadb-store
-    testImplementation "org.apache.activemq:activemq-kahadb-store:5.15.12"
+    testImplementation "org.apache.activemq:activemq-kahadb-store:6.3.3"
 
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
