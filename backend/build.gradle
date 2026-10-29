@@ -109,7 +109,7 @@ dependencies {
     runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.6.10'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.1')
-    testImplementation('com.jayway.jsonpath:json-path:2.6.0')
+    testImplementation('com.jayway.jsonpath:json-path:3.0.0')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
 }
