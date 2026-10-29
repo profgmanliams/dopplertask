@@ -48,9 +48,9 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-data-jpa:2.6.1"
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j
-    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.17.0'
+    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.26.1'
 // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
-    implementation 'org.apache.logging.log4j:log4j-api:2.17.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.26.1'
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq
     implementation "org.springframework.boot:spring-boot-starter-activemq:2.6.1"
@@ -59,9 +59,9 @@ dependencies {
     implementation("org.apache.activemq:activemq-http:5.15.12")
 
     // https://mvnrepository.com/artifact/org.apache.velocity.tools/velocity-tools-generic
-    implementation "org.apache.velocity.tools:velocity-tools-generic:3.0"
+    implementation "org.apache.velocity.tools:velocity-tools-generic:3.1"
 // https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
-    implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.10.3"
+    implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.22.4"
 
     // https://mvnrepository.com/artifact/org.apache.activemq/activemq-broker
     implementation "org.apache.activemq:activemq-broker:5.15.12"
@@ -70,11 +70,11 @@ dependencies {
 
 
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
-    implementation "mysql:mysql-connector-java:8.0.15"
+    implementation "mysql:mysql-connector-java:8.0.33"
 // https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
     implementation "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438"
     // https://mvnrepository.com/artifact/org.javassist/javassist
-    implementation "org.javassist:javassist:3.26.0-GA"
+    implementation "org.javassist:javassist:3.33.0-GA"
 
     implementation "com.jcraft:jsch:0.1.55"
 
@@ -103,7 +103,7 @@ dependencies {
 // https://mvnrepository.com/artifact/org.graalvm.js/js-scriptengine
     implementation "org.graalvm.js:js-scriptengine:21.3.0"
 // https://mvnrepository.com/artifact/org.reflections/reflections
-    implementation "org.reflections:reflections:0.10.1"
+    implementation "org.reflections:reflections:0.10.2"
 
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
     runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.6.10'
