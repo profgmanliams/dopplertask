@@ -4,7 +4,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.6.1")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:4.1.2")
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -41,11 +41,11 @@ sourceCompatibility = 17.0
 targetCompatibility = 17.0
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web:2.6.1") {
+    implementation("org.springframework.boot:spring-boot-starter-web:4.1.2") {
         exclude group: "org.apache.logging.log4j", module: "log4j-to-slf4j"
         exclude group: "org.apache.logging.log4j", module: "log4j-api"
     }
-    implementation "org.springframework.boot:spring-boot-starter-data-jpa:2.6.1"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa:4.1.2"
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j
     implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.17.0'
@@ -53,7 +53,7 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-api:2.17.0'
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq
-    implementation "org.springframework.boot:spring-boot-starter-activemq:2.6.1"
+    implementation "org.springframework.boot:spring-boot-starter-activemq:4.1.2"
 
     implementation("org.apache.activemq:activemq-stomp:5.15.12")
     implementation("org.apache.activemq:activemq-http:5.15.12")
@@ -108,7 +108,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
     runtimeOnly group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.6.10'
 
-    testImplementation('org.springframework.boot:spring-boot-starter-test:2.6.1')
+    testImplementation('org.springframework.boot:spring-boot-starter-test:4.1.2')
     testImplementation('com.jayway.jsonpath:json-path:2.6.0')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
