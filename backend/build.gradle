@@ -48,9 +48,9 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-data-jpa:2.6.1"
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j
-    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.17.0'
+    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.26.1'
 // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
-    implementation 'org.apache.logging.log4j:log4j-api:2.17.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.26.1'
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-activemq
     implementation "org.springframework.boot:spring-boot-starter-activemq:2.6.1"
