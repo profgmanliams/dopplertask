@@ -98,10 +98,10 @@ dependencies {
 // https://mvnrepository.com/artifact/org.graalvm.truffle/truffle-api
     implementation "org.graalvm.truffle:truffle-api:21.3.0"
     // https://mvnrepository.com/artifact/org.graalvm.js/js
-    implementation "org.graalvm.js:js:21.3.0"
+    implementation "org.graalvm.js:js:25.3.4.1"
 
 // https://mvnrepository.com/artifact/org.graalvm.js/js-scriptengine
-    implementation "org.graalvm.js:js-scriptengine:21.3.0"
+    implementation "org.graalvm.js:js-scriptengine:25.3.4.1"
 // https://mvnrepository.com/artifact/org.reflections/reflections
     implementation "org.reflections:reflections:0.10.1"
 
